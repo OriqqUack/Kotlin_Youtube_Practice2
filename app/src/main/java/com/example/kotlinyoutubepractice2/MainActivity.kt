@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnGetText.setOnClickListener{//버튼 클릭시 수행할 동작을 setonclicklistener가 처리한다.
-            binding.tvResult.setText("안녕하세요")
+            binding.tvResult.setText("안녕하세")
         }
 
 
